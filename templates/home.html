@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="display-3">{{info["about"]["name"]}}</h1>
+    <p class="lead">
+       {% for i in info['about']['aboutme'] %}
+            <p>{{i}}</p>
+        {% endfor %}
+    </p>
+    <h4>
+        Basic Info: {{developer}}
+    </h4>
+    <dl>
+<dt><strong>Age: {{info["about"]["age"]}}</strong></dt>
+        <dt><strong>Civil Satus: {{info["about"]["civilState"]}}</strong></dt>
+
+    <dt><strong>E-Mail: {{info["about"]["email"]}}</strong></dt>
+
+    <dt><strong>Address: {{info["about"]["address"]}}</strong></dt>
+
+    <dt><strong>Nationality: {{info["about"]["nationality"]}}</strong></dt>
+        <dd></dd>
+    </dl>
+
+</div>
+
+{% endblock %}

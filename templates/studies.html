@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="display-3">My Formation</h1>
+<h3> Highschool</h3>
+    <dl>
+<dt><strong>School: {{info["school"]["name"]}}</strong></dt>
+        <dt><strong>Level: {{info["school"]["level"]}}</strong></dt>
+        <dt><strong>Degree: {{info["school"]["BS"]}}</strong></dt>
+        <dt><strong>Duration: {{info["school"]["length"]}}</strong></dt>
+
+    </dl>
+    <h3> College</h3>
+<dl>
+<dt><strong>School: {{info["university"]["name"]}}</strong></dt>
+        <dt><strong>Career: {{info["university"]["career"]}}</strong></dt>
+        <dt><strong>Degree: {{info["university"]["degree"]}}</strong></dt>
+        <dt><strong>Duration: {{info["university"]["length"]}}</strong></dt>
+
+    </dl>
+</div>
+
+{% endblock %}

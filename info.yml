@@ -1,0 +1,35 @@
+about:
+    name: "Tirso Córdova Briz"
+    age: "20"
+    civilState: "Single"
+    email: "tirso@ufm.edu"
+    address: "0 calle 19-70 Z15 Vista Hermosa 1 edificio Doral apto 6CD"
+    nationality: "Guatemalan"
+    aboutme:
+        - "Natural leader, dog lover, and very tall."
+        - " I have a passion for learning new things especially when it comes to the universe."
+studies:
+    school:
+        name: "Colegio Internacional Montessori"
+        level: "Highschool"
+        BS: "Bachiller en ciencas y letras"
+        length: "2013-2017"
+
+    university:
+        name: "Universidad Francisco Marroqín"
+        career: "Computer Science"
+        degree: "Bachelor of Science"
+        length: "2018-2021"
+
+experience:
+    Sales1:
+      company: "L'occitane"
+      Job: "Temporary sales associate"
+      duration: "2 months"
+      description: "working closely with customers to determine their needs, answer their questions about the company's products and recommend the right solutions."
+
+    Sales2:
+      company: "Fetiche"
+      Job: "Temporary sales associate"
+      duration: "2 months"
+      description: "working closely with customers to determine their needs, answer their questions about the company's products and recommend the right solutions."

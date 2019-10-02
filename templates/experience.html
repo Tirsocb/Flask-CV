@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center">
+    <h1 class="display-3">Work Experience</h1>
+<h3> L'occitane</h3>
+    <dl>
+<dt><strong>Position: {{info["Sales1"]["Job"]}}</strong></dt>
+
+        <dt><strong>Duration: {{info["Sales1"]["duration"]}}</strong></dt>
+<dt><strong>Description: {{info["Sales1"]["description"]}}</strong></dt>
+    </dl>
+    <h3> Fetiche</h3>
+<dl>
+<dt><strong>Position: {{info["Sales2"]["Job"]}}</strong></dt>
+        <dt><strong>Duration: {{info["Sales2"]["duration"]}}</strong></dt>
+<dt><strong>Description: {{info["Sales2"]["description"]}}</strong></dt>
+    </dl>
+</div>
+
+{% endblock %}
+
+
